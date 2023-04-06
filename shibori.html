@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <input type="date" id="accidentdatestart" class="accidentdatestart" min="2021-04-01" max="2022-03-31">       
+       〜
+        <input type="date" id="accidentdateend" class="accidentdateend" min="2021-04-01" max="2022-03-31">
+   
+    <select name="starttime" id="starttime" class="starttime">
+        <option value="0">選択しない</option>
+        <option value="1">1時</option>
+        <option value="2">2時</option>
+        <option value="3">3時</option>
+        <option value="4">4時</option>
+        <option value="5">5時</option>
+        <option value="6">6時</option>
+        <option value="7">7時</option>
+        <option value="8">8時</option>
+        <option value="9">9時</option>
+        <option value="10">10時</option>
+        <option value="11">11時</option>
+        <option value="12">12時</option>
+        <option value="13">13時</option>
+        <option value="14">14時</option>
+        <option value="15">15時</option>
+        <option value="16">16時</option>
+        <option value="17">17時</option>
+        <option value="18">18時</option>
+        <option value="19">19時</option>
+        <option value="20">20時</option>
+        <option value="21">21時</option>
+        <option value="22">22時</option>
+        <option value="23">23時</option>
+        <option value="24">24時</option>
+    </select>
+    〜
+    <select name="endtime" id="endtime" class="endtime">
+        <option value="0">選択しない</option>
+        <option value="1">1時</option>
+        <option value="2">2時</option>
+        <option value="3">3時</option>
+        <option value="4">4時</option>
+        <option value="5">5時</option>
+        <option value="6">6時</option>
+        <option value="7">7時</option>
+        <option value="8">8時</option>
+        <option value="9">9時</option>
+        <option value="10">10時</option>
+        <option value="11">11時</option>
+        <option value="12">12時</option>
+        <option value="13">13時</option>
+        <option value="14">14時</option>
+        <option value="15">15時</option>
+        <option value="16">16時</option>
+        <option value="17">17時</option>
+        <option value="18">18時</option>
+        <option value="19">19時</option>
+        <option value="20">20時</option>
+        <option value="21">21時</option>
+        <option value="22">22時</option>
+        <option value="23">23時</option>
+        <option value="24">24時</option>
+    </select>
+  
+
+    
+    <input type="text" id="input-text">
+
+
+    <label><input type="checkbox" name="color" value="red" >赤</label>
+    <label><input type="checkbox" name="color" value="blue">青</label>
+    <label><input type="checkbox" name="color" value="green">緑</label>
+
+    <label><input type="checkbox" name="sizefirst" value="small">Sサイズ</label>
+    <label><input type="checkbox" name="sizesecond" value="medium">Mサイズ</label>
+    <label><input type="checkbox" name="sizethird" value="large">Lサイズ</label>
+
+    <ul id="list">
+        <li class="item" data-accident="2021-05-21" data-time="3時" data-color="blue" data-sizesecond="medium" data-sizethird="large" data-filter="りんご">Item 1</li>
+        <li class="item" data-accident="2021-08-11" data-color="red" data-size="large" data-filter="">Item 2</li>
+        <li class="item" data-accident="2021-06-18" data-color="blue" data-size="small" data-filter="">Item 3</li>
+        <li class="item" data-accident="2021-10-13" data-color="green" data-size="medium" data-filter="">Item 4</li>
+    </ul>
+
+<script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+<script src="shibori.js"></script>
+</body>
+</html>
